@@ -1,0 +1,85 @@
+.Footer {
+    background-color: rgba($color: #000000, $alpha: 0.05);
+    padding-block: 20px;
+    margin-top: 80px;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .footer-left {
+            .follow {
+                list-style: none;
+                display: flex;
+                gap: 8px;
+
+                li {
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+
+                    &:hover {
+                        background-color: white;
+                    }
+                }
+            }
+        }
+
+        .footer-right {
+            .company {
+                li {
+                    margin-top: 10px;
+                    color: var(--secondary-text-color);
+
+                    &:hover {
+                        color: var(--accent-color);
+                    }
+                }
+            }
+        }
+    }
+
+    .subfooter {
+        flex-direction: column;
+        margin-top: 40px;
+
+        .credit-card-img {
+            width: 200px;
+            text-align: center;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Footer {
+        .content {
+
+
+            flex-direction: column;
+            text-align: center;
+
+            h3.title{
+                margin-bottom: 20px;
+            }
+
+            .footer-left {
+                margin-block: 40px;
+                margin-top: 20px;
+                .follow {
+                    font-size: 1.5rem;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

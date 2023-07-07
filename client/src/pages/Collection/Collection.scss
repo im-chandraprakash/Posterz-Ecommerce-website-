@@ -1,0 +1,91 @@
+.Categories {
+    margin-top: 40px;
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        .info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .sort-by {
+            flex: 1;
+            display: flex;
+            justify-content: end;
+
+            .sort-by-container {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                .select-sort-by {
+                    padding: 8px 12px;
+                    border: 1 px solid #ccc;
+
+                    .select-btn {
+                        display: inline-block;
+                        font-size: 1rem;
+                        // padding: 16px 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .content {
+        margin-top: 40px;
+        display: flex;
+        gap: 20px;
+        .filter-box {
+            flex: 1;
+            flex-grow: 0;
+            border: 1px solid #ccc;
+            padding: 12px;
+            height: fit-content;
+            min-width: 160px;
+
+            h3 {
+                margin-block: 8px;
+            }
+            .filter-radio {
+                margin-block: 8px;
+
+                input {
+                    margin-right: 8px;
+                    accent-color: var(--accent-color);
+                }
+                label {
+                    color: var(--secondary-text-color);
+                    cursor: pointer;
+                }
+            }
+        }
+        .product-box {
+            flex: 4;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Categories {
+        .header {
+            flex-direction: column;
+            gap: 20px;
+
+            .sort-by {
+                justify-content: start;
+            }
+        }
+        .content {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}

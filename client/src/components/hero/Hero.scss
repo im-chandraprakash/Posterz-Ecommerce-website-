@@ -1,0 +1,40 @@
+.Hero {
+    height: 90vh;
+    background-image: url("../../Assets/banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .hero-content {
+        height: 100%;
+        flex-direction: column;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        gap: 10px;
+
+        .heading {
+            color: white;
+            font-size: 3rem;
+        }
+        .subheading {
+            color: whitesmoke;
+            font-size: 1.2rem;
+        }
+        .cta {
+            margin-top: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .Hero{
+        height: 70vh;
+        .hero-content{
+            text-align: center;
+            .heading{
+                font-size: 2rem;
+            }
+            .subheading{
+                font-size: 1rem;
+            }
+        }
+    }
+}

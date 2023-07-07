@@ -1,0 +1,107 @@
+.Cart{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+    // overflow: s;
+    overflow-y: scroll;
+
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+    }
+    .cart-content{
+        width: 320px;
+        height: 100%;
+        position: relative;
+        background-color: white;
+        animation: cardSlider 0.3s ease forwards;
+        transform:translateX(100%);
+
+        .header{
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-inline: 8px;
+            border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
+
+            .close-btn{
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                cursor: pointer;
+                font-weight: 500;
+
+                &:hover{
+                    opacity: 0.6;
+                }
+                &:active{
+                    opacity: 1;
+                }
+            }
+        }
+         .empty-cart-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 20px;
+            align-items: center;
+            justify-content: center;
+
+            .icon {
+                font-size: 3rem;
+                color: var(--secondary-text-color);
+            }
+
+            h4 {
+                color: var(--secondary-text-color);
+            }
+        }
+
+        
+       .checkout-info {
+            margin-top: 40px;
+            padding: 8px;
+            border-top: 1px solid rgba($color: #000000, $alpha: 0.5);
+            .total-amount {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .checkout {
+                margin: 16px 8px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+@keyframes cardSlider{
+    0%{
+        transform:translateX(100%);
+
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (max-width:480px){
+
+    .Cart .cart-content{
+        width: 100%;
+    }
+    
+}
