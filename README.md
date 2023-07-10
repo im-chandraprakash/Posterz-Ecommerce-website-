@@ -9,9 +9,10 @@ https://res.cloudinary.com/dkp7kraja/video/upload/v1688527911/Video/Posterz_Ecom
 # Screenshot
 
 # For Mobile Devices
-![Screenshot 2023-07-05 092237](https://github.com/07-Chandra/Posterz-Ecommerce-site/assets/126280482/e16ee875-8926-4419-9e7a-f788c5846375)           ![Screenshot 2023-07-05 092308](https://github.com/07-Chandra/Posterz-Ecommerce-site/assets/126280482/34c8467d-afc9-4c2d-a87f-56e42281a56b)                           ![Screenshot 2023-07-05 092340](https://github.com/07-Chandra/Posterz-Ecommerce-site/assets/126280482/96d36ac1-611e-48b0-81ab-98124b5320fd)
+![Screenshot 2023-07-05 092237](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/15b32046-ac17-499d-8e26-04a71e09f6d4)               ![Screenshot 2023-07-05 092308](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/7f20f609-1aea-4e4b-975a-1d43463b7559)                ![Screenshot 2023-07-05 092340](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/48588ee1-44ef-4eb7-bce4-739cea0ce3ae)
 
-![Screenshot 2023-07-05 092416](https://github.com/07-Chandra/Posterz-Ecommerce-site/assets/126280482/75087c8c-0f5a-4caa-b3b7-7181ee400892)                                    ![Screenshot 2023-07-05 092624](https://github.com/07-Chandra/Posterz-Ecommerce-site/assets/126280482/d4a8abbc-0007-4611-aada-6cccc7deff1e)                                          ![Screenshot 2023-07-05 092517](https://github.com/07-Chandra/Posterz-Ecommerce-site/assets/126280482/de36ba56-6ceb-4f50-8efe-60b926c706a4)
+
+![Screenshot 2023-07-05 092416](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/def5dcd8-ecca-46dc-b727-032a6dad0360)              ![Screenshot 2023-07-05 092624](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/927578cc-a9cf-406e-8e06-259447d6f3d3)               ![Screenshot 2023-07-05 092517](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/557466f5-8f2b-4dde-804f-c1d3525ed596)
 
 # for Desktop Devices
 
