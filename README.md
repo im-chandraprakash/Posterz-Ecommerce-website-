@@ -14,7 +14,14 @@ https://res.cloudinary.com/dkp7kraja/video/upload/v1688527911/Video/Posterz_Ecom
 
 ![Screenshot 2023-07-05 092416](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/def5dcd8-ecca-46dc-b727-032a6dad0360)              ![Screenshot 2023-07-05 092624](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/927578cc-a9cf-406e-8e06-259447d6f3d3)               ![Screenshot 2023-07-05 092517](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/557466f5-8f2b-4dde-804f-c1d3525ed596)
 
+
+
+
+![Screenshot 2023-07-10 200220](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/bd9b2fc0-c8a9-4ed5-8d5a-cb262b74fe85)                     
+    ![Screenshot 2023-07-10 200303](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/f70566b9-bf66-44e7-bd2f-27dcfc30a8d1)
+
 # for Desktop Devices
+
 
 
 ![Screenshot 2023-07-05 093518](https://github.com/07-Chandra/Posterz-Ecommerce-website-/assets/126280482/55d80342-6392-434c-a70e-e55a5104d700)
