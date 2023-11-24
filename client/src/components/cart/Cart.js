@@ -62,7 +62,7 @@ function Cart({ onClose }) {
                 {!isCartEmpty && (
                     <div className="checkout-info">
                         <div className="total-amount">
-                            <h3 className="total-message">Total</h3>
+                            <h3 className="total-message">Total Amount</h3>
                             <div className="total-value">₹ {totalAmount}</div>
                         </div>
                         <div
